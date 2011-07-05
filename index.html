@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="common.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+		<script type="text/javascript" src="common.js"></script>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header"></div>
+			<div id="main">
+				<h1>footnotes jQuery plugin</h1>
+				<h2>Test page</h2>
+				<p>Lorem ipsum dolor <a href="http://www.efusia.net" title="Efusia web site" target="_blank">Efusia</a> amet.</p>
+				<p>Lorem ipsum dolor amet. Silencium magistro <a href="http://www.google.com">Google</a></p>
+				<h3>footnotes JS documentation</h3>
+				<pre>
+				/*
+				 * footnotes jQuery plugin
+				 * Scan all specified elements (links by default) in a specified DOM element (usually body) in order to put footnotes for print purposes.
+				 *
+				 * Settings :
+				 {
+					insertInsideSel: this.selector, // jQuery selector : where the footnotes list is insert in.
+					linksSel: 'a', // jQuery selector : selector to match DOM elements within the current scope
+					footNoteClass: 'footnote', // string class : class attribute for all matched DOM elements
+					printOnlyClass: 'printOnly', // string class : class attribute for elements to show only for a print media.
+					footNotesID: 'footnotes', // string ID : identifier for the footnotes division
+					scanAnchors: false, // Boolean true/false : anchors only (start with #) are checked for double matchs
+					scanTitle: false, // Boolean true/false : titles are checked for double matchs
+					showTitle: false, // Boolean true/false : show title in footnotes list
+					scanTarget: false, // Boolean true/false : targets are checked for double matchs
+					showTarget: false // Boolean true/false : show target in footnotes list
+				 }
+				 *
+				 */
+				</pre>
+				Aliquam erat volutpat. <a href="#">Ancre vers #</a> a nibh sed diam vestibulum rhoncus scelerisque non leo. Phasellus ornare dolor et lorem gravida ut aliquam dolor accumsan.<br/>Sed tincidunt consectetur est, sit amet suscipit ligula pretium in. Nullam bibendum ante vulputate arcu sollicitudin eu laoreet orci laoreet. Vestibulum tincidunt lectus et justo sodales interdum.<br/>Integer ac scelerisque lectus. Vivamus nec magna viverra nibh tincidunt congue eget vitae velit. Quisque vitae quam est, quis condimentum felis. In vel dui arcu, eget consequat velit. Quisque nec sem leo, quis mattis dolor.
+				</p>
+				<p>
+				Mauris ut pharetra massa. Nam ut est non elit tempus venenatis. Semper nec volutpat lectus. <a href="http://www.efusia.net" title="Aller au site Efusia" target="_blank">Efusia</a> sed in leo felis. Sed a sem massa. Suspendisse vitae suscipit mauris. In a nibh risus. Nunc eu felis est, vitae cursus lorem.<br/>Pellentesque scelerisque turpis et mi mollis in sagittis dolor cursus.<br/>Aenean aliquet, dui quis eleifend iaculis, orci nisi viverra ante, a consectetur erat orci a lacus. Aenean congue dapibus tortor eget dapibus.
+				</p>
+				<p>
+				In turpis ante, vestibulum lobortis porttitor vel, vestibulum sit amet orci. Fusce consectetur lacinia nisi, vitae porttitor nulla euismod vitae. In rutrum consequat turpis vitae vehicula. Nam ligula dolor, congue eget vehicula vulputate, commodo in tortor.
+				</p>
+				<p>
+				Nulla ullamcorper velit at sapien dignissim id pulvinar sapien commodo. <a href="http://www.efusia.net">Google</a> quis ligula ipsum, non consequat sem. In non urna risus, sit amet molestie libero.<br/>In lobortis ante sed arcu tincidunt placerat.<br/>Praesent malesuada enim a nisi fermentum congue sed eu massa.<br/>Donec felis tortor, egestas a commodo ut, faucibus ac tortor.<br/>Ut porta nisi vitae justo lacinia tempus. In hac habitasse platea dictumst. Nulla facilisi. Donec congue eros sed lorem accumsan iaculis. Quisque posuere, justo eu tempus porta, dolor nulla tincidunt lorem, in pulvinar neque libero ac lacus. Nulla at eros tincidunt ante convallis bibendum ut quis odio.
+				</p>
+				<p>
+				Vestibulum eget odio nec <a href="http://www.efusia.net" target="_parent">Efusia</a> rutrum rutrum nec ut ipsum. Quisque pulvinar luctus mollis.<br/>Nulla ullamcorper velit at sapien dignissim id pulvinar sapien commodo. Etiam quis ligula ipsum, non consequat sem. In non urna risus, sit amet molestie libero. In lobortis ante sed arcu tincidunt placerat.<br/>Praesent malesuada enim a nisi fermentum congue sed eu massa.<br/>Donec felis tortor, egestas a commodo ut, faucibus ac tortor.<br/>Sed nisl mauris, mollis ac condimentum aliquam, volutpat et metus.<br/>Ut porta nisi vitae justo lacinia tempus. In hac habitasse platea dictumst. Nulla facilisi. Donec congue eros sed lorem accumsan iaculis. Quisque posuere, justo eu tempus porta, dolor nulla tincidunt lorem, in pulvinar neque libero ac lacus. Nulla at eros tincidunt ante convallis bibendum ut quis odio.
+				</p>
+				<p>
+				Proin quis lectus eros. Aenean quis sagittis enim. Donec id urna nec dui sodales tincidunt. Donec justo mi, vehicula ut tempor sed, volutpat ut urna.<br/>Aliquam at quam ac lacus venenatis commodo. Nulla facilisi. Vivamus ornare convallis volutpat. Vestibulum turpis tortor, ultricies eu bibendum sed, facilisis id massa. Maecenas sit amet posuere quam. Cras tristique congue mattis. Nulla elementum auctor quam, non malesuada mi vehicula sit amet. Mauris at quam non sapien iaculis viverra. Donec et augue eget enim euismod mattis. Curabitur ultricies nisl ut risus consectetur nec consectetur lectus convallis.<br/>Praesent sodales varius mi, et bibendum ligula pharetra a. Ut mauris ante, vulputate eu placerat ac, mattis in nibh.<br/>Vestibulum suscipit ante eros, nec semper turpis.<br/>Praesent eros nulla, convallis quis placerat ac, imperdiet a turpis.
+				</p>
+				<p>
+				Aliquam <a href="http://www.efusia.net" target="_self">Efusia</a> volutpat. <a href="http://www.google.com">Google</a> a nibh sed diam vestibulum rhoncus scelerisque non leo. Phasellus ornare dolor et lorem gravida ut aliquam dolor accumsan.<br/>Sed tincidunt consectetur est, sit amet suscipit ligula pretium in. Nullam bibendum ante vulputate arcu sollicitudin eu laoreet orci laoreet. Vestibulum tincidunt lectus et justo sodales interdum.<br/>Integer ac scelerisque lectus. Vivamus nec magna viverra nibh tincidunt congue eget vitae velit. Quisque vitae quam est, quis condimentum felis. In vel dui arcu, eget consequat velit. Quisque nec sem leo, quis mattis dolor.
+				</p>
+			</div>
+			<div id="footer"></div>
+		</div>
+	</body>
+</html>

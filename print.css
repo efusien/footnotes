@@ -1,0 +1,27 @@
+/* Print styles
+=========================*/
+a:after{
+	content: "";
+}
+hr{
+	margin: 15px 0;
+}
+.noPrint{
+	display: none;
+}
+div.printOnly,
+p.printOnly,
+ul.printOnly{
+	display: block;
+}
+p.printOnly,
+span.printOnly,
+a.printOnly,
+sup.printOnly{
+	display: inline;
+}
+#footnotes{
+	border-top: solid 1px #333;
+	margin-top: 15px;
+	padding: 10px 5px 0 5px;
+}

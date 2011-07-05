@@ -1,0 +1,6 @@
+/* Common styles
+=========================*/
+.hidden,
+.printOnly{
+	display: none;
+}
